@@ -2,7 +2,11 @@ class CalendarsController < ApplicationController
 
   # １週間のカレンダーと予定が表示されるページ
   def index
+<<<<<<< Updated upstream
     get_week
+=======
+    GetWeek
+>>>>>>> Stashed changes
     @plan = Plan.new
   end
 
